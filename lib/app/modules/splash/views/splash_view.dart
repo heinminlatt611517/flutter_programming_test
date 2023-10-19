@@ -4,7 +4,9 @@ import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 import '../controllers/splash_controller.dart';
 
-class SplashView extends GetView<SplashController> {
+class SplashView extends StatelessWidget {
+   SplashView({Key? key}) : super(key: key);
+  final controller = Get.put(SplashController());
   @override
   Widget build(BuildContext context) {
     return Scaffold(
