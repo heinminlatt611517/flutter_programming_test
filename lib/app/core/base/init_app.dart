@@ -7,7 +7,7 @@ Future<void> initApp() async{
   await initAppModule();
   if(!kIsWeb) {
     if (Platform.isAndroid) {
-      binding.renderView.automaticSystemUiAdjustment = true;
+      binding.renderView.automaticSystemUiAdjustment = false;
     }
   }
 }

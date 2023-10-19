@@ -25,7 +25,6 @@ class AppPages {
       name: _Paths.SPLASH,
       page: () => SplashView(),
       binding: SplashBinding(),
-        transition: Transition.zoom
     ),
     GetPage(
       name: _Paths.CREATE_NEW_TASK,
